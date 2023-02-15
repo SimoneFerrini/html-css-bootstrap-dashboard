@@ -3,5 +3,8 @@
 .my_nav_definition{
     width: 100%;
     height: 90px;
-    background-color: lightgrey;
+}
+
+.my_mobilelogo_container{
+    width: 50px;
 }
