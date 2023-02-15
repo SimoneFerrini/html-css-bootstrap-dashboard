@@ -1,3 +1,10 @@
+/*common*/
+
+.my_bg_grey{
+    background-color: rgb(196, 196, 196);
+}
+
+
 
 /*navbar*/
 .my_nav_definition{
@@ -30,7 +37,7 @@
 /*header&main*/
 
 .my_botright_definition{
-    width: calc(100vw - 80px);
+    width: calc(100% - 80px);
     height: 100%;
 }
 
@@ -44,7 +51,7 @@
      }
 
      .my_botright_definition{
-        width: calc(100vw - 150px);
+        width: calc(100% - 150px);
     }
     
 }

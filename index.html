@@ -18,9 +18,9 @@
 <body>
     
     <!--navbar grigia fixed-->
-    <nav class="my_nav_definition py-3 bg-light fixed-top">
+    <nav class="my_nav_definition py-3 bg-white fixed-top">
         
-        <div class="container-fluid d-flex justify-content-between align-items-center bg-white h-100">
+        <div class="container-fluid d-flex justify-content-between align-items-center h-100">
             <!--logo lg-md-sm -->
             <div>
                 <img src="img/logo.svg" class="d-none d-lg-block" alt="logo">
@@ -29,8 +29,8 @@
 
             <!--barra ricerca-->
             <div class="input-group px-3">
-                <span class="input-group-text bg-light border-0" id="basic-addon1"><i class="bi bi-search"></i></span>
-                <input type="text" class="form-control bg-light border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text my_bg_grey border-0" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control my_bg_grey border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
               </div>
 
             <!--div icone-->
@@ -86,7 +86,7 @@
         <!-- header & main -->
         <div class="my_botright_definition  overflow-y-auto">
             <!--header-->
-            <header class="d-flex  flex-column-reverse flex-md-row justify-content-between p-3 text-white bg-primary mb-3">
+            <header class="d-flex  flex-column-reverse flex-md-row justify-content-between p-3 text-white bg-primary">
                 <div class="d-flex flex-column flex-md-row justify-content-between w-50">
                     <span>1</span>
                     <span>2</span>
@@ -98,14 +98,14 @@
                 
             </header>
 
-
+<!--ricorda di controllare card su bootstrap------------ -->
             <!-- main-->
-            <div class="row mx-1 bg-light">
+            <div class="row my_bg_grey py-3 mx-0">
                 <div class="col-12 col-md-8">
                    <!-- tabella classi -->
                     <div>
                         <h2>Prossime Classi</h2>
-                        <table class="table">
+                        <table class="table bg-white border-1">
                             <thead>
                               <tr>
                                 <th scope="col">Nome</th>
@@ -213,13 +213,23 @@
                                 </td>
                               </tr>
                             </tbody>
-                          </table>
+                        </table>
+                    </div>
+
+                    <!-- faq -->
+                    <div>
+                        <h2>F.A.Q.</h2>
 
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4">
-                    ciao
+                    <!-- Todo -->
+                    <div>
+                        <h2>Todo</h2>
+                    </div>
+
+                    <!-- card grafico-->
                 </div>
 
             </div>
