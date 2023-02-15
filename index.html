@@ -18,12 +18,105 @@
 <body>
     
     <!--navbar grigia fixed-->
-    <nav class="my_nav_definition py-3">
-        <div class="container-fluid d-flex justify-content-beetween align-items-center bg-white h-100">
-            ciao
+    <nav class="my_nav_definition py-3 bg-light fixed-top">
+        
+        <div class="container-fluid d-flex justify-content-between align-items-center bg-white h-100">
+            <!--logo lg-md-sm -->
+            <div>
+                <img src="img/logo.svg" class="d-none d-lg-block" alt="logo">
+                <img src="img/mobile-logo.png" class="my_mobilelogo_container d-lg-none" alt="logo">
+            </div>
+
+            <!--barra ricerca-->
+            <div class="input-group px-3">
+                <span class="input-group-text bg-light" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control bg-light" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+            <!--div icone-->
+            <ul class="d-none d-lg-flex justify-content-between align-items-center list-unstyled gap-2 mb-0">
+                <li><i class="bi bi-list fs-2 text-secondary"></i></li>
+                <li><i class="bi bi-question-circle-fill fs-2 text-secondary"></i></li>
+                <li><i class="bi bi-three-dots-vertical fs-2 text-secondary"></i></li>
+            </ul>
+
+            <!--campanella-->
+            <i class="bi bi-bell-fill fs-2 text-warning"></i>
+           
         </div>
+        
     </nav>
-    
+    <!-- /navbar -->
+
+    <!-- parte centrale -->
+    <div class="my_ptcenter_height d-flex">
+
+         <!-- menu laterale sx -->
+        <div class="my_sidebar_definition">
+            <div class="d-flex flex-column justify-content-between align-items-center p-3 text-white h-100">
+                <!--sidebar top-->
+                <ul class="mb-0 list-unstyled ">
+                   <li class="d-flex gap-3 align-items-center ">
+                    <div><i class="bi bi-house-door-fill fs-4"></i></div>
+                    <div class="d-none d-lg-block fw-bold">Home</div>
+                   </li>
+
+                   <li class="d-flex gap-3 align-items-center">
+                    <div><i class="bi bi-bar-chart-steps fs-4"></i></div>
+                    <div class="d-none d-lg-block fw-bold">Stats</div>
+                   </li>
+
+                   <li class="d-flex gap-3 align-items-center">
+                    <div><i class="bi bi-reception-4 fs-4"></i></div>
+                    <div class="d-none d-lg-block fw-bold">Signal</div>
+                   </li>
+
+                </ul>
+                <!-- sidebar bottom-->
+                <div class="d-flex gap-3 align-items-center">
+                    <div><i class="bi bi-gear-fill fs-4"></i></div>
+                    <div class="d-none d-lg-block">Admin</div>
+                </div>
+            </div>
+             
+        </div>
+        <!-- /menu laterale sx -->
+
+
+        <!-- header & main -->
+        <div class="my_botright_definition">
+            <!--header-->
+            <header class="d-flex  flex-column-reverse flex-md-row justify-content-between w-100 p-3 text-white bg-primary ">
+                <div class="d-flex flex-column flex-md-row justify-content-between w-50">
+                    <span>1</span>
+                    <span>2</span>
+                </div>
+                <div class="w-25">
+                    3
+                </div>
+                
+                
+            </header>
+
+
+            <!-- main-->
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    ciao
+                </div>
+
+                <div class="col-12 col-md-4">
+                    ciao
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+   
+    </div>
 
     <!--JS bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
