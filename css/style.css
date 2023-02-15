@@ -31,6 +31,7 @@
 
 .my_botright_definition{
     width: calc(100vw - 80px);
+    height: 100%;
 }
 
 /*MEDIA QUERY--------------------------*/
