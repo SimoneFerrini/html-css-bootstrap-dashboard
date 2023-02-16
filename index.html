@@ -53,7 +53,7 @@
 
          <!-- menu laterale sx -->
         <div class="my_sidebar_definition">
-            <div class="d-flex flex-column justify-content-between align-items-center p-3 text-white h-100">
+            <div class="d-flex flex-column justify-content-between p-3 text-white h-100">
                 <!--sidebar top-->
                 <ul class="mb-0 list-unstyled ">
                    <li class="d-flex gap-3 align-items-center ">
@@ -100,30 +100,49 @@
 
 <!--ricorda di controllare card su bootstrap------------ -->
             <!-- main-->
-            <div class="row my_bg_grey py-3 mx-0">
-                <div class="col-12 col-md-8">
-                   <!-- tabella classi -->
-                    <div>
-                        <h2>Prossime Classi</h2>
-                        <table class="table bg-white border-1">
-                            <thead>
-                              <tr>
-                                <th scope="col">Nome</th>
-                                <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
-                                <th scope="col" class="d-none d-md-table-cell">ROI</th>
-                                <th scope="col">Stato</th>
-                                <th scope="col">Azioni</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
+            <div class="container-fluid">
+                <div class="row my_bg_grey py-3 ">
+                    <div class="col-12 col-md-8">
+                       <!-- tabella classi -->
+                        <div>
+                            <h2>Prossime Classi</h2>
+                            <table class="table bg-white border-1">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                                    <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                        <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 75</span>
+                                        </td>
+                                        <td class="d-none d-md-table-cell align-middle">15 Feb 2021</td>
+                                        <td class="d-none d-md-table-cell align-middle">20%</td>
+                                        <td class="align-middle">Done</td>
+                                        <td class="align-middle">
+                                            <div>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                                <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
+                                            </div>
+                                        </td>
+                                  </tr>
+    
+                                  <tr>
                                     <td class="align-middle">
                                         <div class="my_img_dimension d-inline-block">
                                             <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
                                         </div>
-                                        <span>Classe 75</span>
+                                        <span>Classe 76</span>
                                     </td>
-                                    <td class="d-none d-md-table-cell align-middle">15 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">16 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
                                     <td class="align-middle">Done</td>
                                     <td class="align-middle">
@@ -132,153 +151,136 @@
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
                                     </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                    <div class="my_img_dimension d-inline-block">
-                                        <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
-                                    </div>
-                                    <span>Classe 76</span>
-                                </td>
-                                <td class="d-none d-md-table-cell align-middle">16 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Done</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                        <div class="my_img_dimension d-inline-block">
-                                            <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                  </tr>
+    
+                                  <tr>
+                                    <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 77</span>
+                                        </td>
+                                    <td class="d-none d-md-table-cell align-middle">17 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">20%</td>
+                                    <td class="align-middle">Process</td>
+                                    <td class="align-middle">
+                                        <div>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
-                                        <span>Classe 77</span>
                                     </td>
-                                <td class="d-none d-md-table-cell align-middle">17 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Process</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                        <div class="my_img_dimension d-inline-block">
-                                            <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                  </tr>
+    
+                                  <tr>
+                                    <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 78</span>
+                                        </td>
+                                    <td class="d-none d-md-table-cell align-middle">18 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">20%</td>
+                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle">
+                                        <div>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
-                                        <span>Classe 78</span>
                                     </td>
-                                <td class="d-none d-md-table-cell align-middle">18 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Done</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                        <div class="my_img_dimension d-inline-block">
-                                            <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                  </tr>
+    
+                                  <tr>
+                                    <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 79</span>
+                                        </td>
+                                    <td class="d-none d-md-table-cell align-middle">19 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">20%</td>
+                                    <td class="align-middle">Falled</td>
+                                    <td class="align-middle">
+                                        <div>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
-                                        <span>Classe 79</span>
                                     </td>
-                                <td class="d-none d-md-table-cell align-middle">19 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Falled</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                        <div class="my_img_dimension d-inline-block">
-                                            <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                  </tr>
+    
+                                  <tr>
+                                    <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 80</span>
+                                        </td>
+                                    <td class="d-none d-md-table-cell align-middle">20 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">20%</td>
+                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle">
+                                        <div>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
-                                        <span>Classe 80</span>
                                     </td>
-                                <td class="d-none d-md-table-cell align-middle">20 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Done</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                        <div class="my_img_dimension d-inline-block">
-                                            <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                  </tr>
+    
+                                  <tr>
+                                    <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 81</span>
+                                        </td>
+                                    <td class="d-none d-md-table-cell align-middle">21 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">20%</td>
+                                    <td class="align-middle">Falled</td>
+                                    <td class="align-middle">
+                                        <div>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
-                                        <span>Classe 81</span>
                                     </td>
-                                <td class="d-none d-md-table-cell align-middle">21 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Falled</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td class="align-middle">
-                                        <div class="my_img_dimension d-inline-block">
-                                            <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                  </tr>
+    
+                                  <tr>
+                                    <td class="align-middle">
+                                            <div class="my_img_dimension d-inline-block">
+                                                <img src="img/class-avatar.jpg" class="w-100" alt="avatar">
+                                            </div>
+                                            <span>Classe 82</span>
+                                        </td>
+                                    <td class="d-none d-md-table-cell align-middle">22 Feb 2021</td>
+                                    <td class="d-none d-md-table-cell align-middle">20%</td>
+                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle">
+                                        <div>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
                                         </div>
-                                        <span>Classe 82</span>
                                     </td>
-                                <td class="d-none d-md-table-cell align-middle">22 Feb 2021</td>
-                                <td class="d-none d-md-table-cell align-middle">20%</td>
-                                <td class="align-middle">Done</td>
-                                <td class="align-middle">
-                                    <div>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
-                                        <button type="button" class="btn btn-outline-secondary"><i class="bi bi-trash3-fill"></i></button>
-                                    </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                        </table>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+    
+                        <!-- faq -->
+                        <div>
+                            <h2>F.A.Q.</h2>
+    
+                        </div>
                     </div>
-
-                    <!-- faq -->
-                    <div>
-                        <h2>F.A.Q.</h2>
-
+    
+                    <div class="col-12 col-md-4">
+                        <!-- Todo -->
+                        <div>
+                            <h2>Todo</h2>
+                        </div>
+    
+                        <!-- card grafico-->
                     </div>
+    
                 </div>
-
-                <div class="col-12 col-md-4">
-                    <!-- Todo -->
-                    <div>
-                        <h2>Todo</h2>
-                    </div>
-
-                    <!-- card grafico-->
-                </div>
-
             </div>
 
         </div>
