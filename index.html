@@ -106,7 +106,7 @@
                         <span class="badge rounded-pill my_badge_bgcolor">Piano blaze</span>
                     </div>
                     <div style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
+                        <ol class="breadcrumb my_breadcrumb">
                           <li class="breadcrumb-item"><a class="badge rounded-pill my_badge_bgcolor" href="#">3 app</a></li>
                           <li class="breadcrumb-item active d-none d-lg-block" aria-current="page">
                             <span class="badge rounded-pill my_badge_bgcolor">Boolean mobile app</span>
@@ -128,7 +128,103 @@
 
                 <!--sezione 3 header-->
                 <div class="order-1 order-md-3">
-                    
+                
+                    <span>Nuovo Studente</span>
+                    <button class="btn text-white border border-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus-lg"></i></button>
+                    <div class="offcanvas offcanvas-end my_offcanvas_dimension" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <form class="container-fluid">
+                           <!--row 1 -->
+                            <div class="row mb-3">
+                              <div class="col-6">
+                                <span>Nome</span>
+                                <input class="form-control" type="text">
+                              </div>
+                              <div class="col-6">
+                                <span>Cognome</span>
+                                <input class="form-control" type="text">
+                              </div>
+                            </div>
+
+                            <!--row 2 -->
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                  <span>Email</span>
+                                  <div class="input-group flex-nowrap">
+                                    <span class="input-group-text" id="addon-wrapping">@</span>
+                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                                  </div>
+                                </div>
+                                <div class="col-6">
+                                  <span>Password</span>
+                                  <input type="password" class="form-control">
+                                </div>
+                            </div>
+
+                            <!--row 3-->
+                            <div class="row mb-3">
+                                <div class="col-12">
+                                    <span>Indirizzo</span>
+                                    <input class="form-control" type="text">
+                                  </div>
+                            </div>
+
+                            <!--row 4 -->
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <span>Città</span>
+                                    <input class="form-control" type="text">
+                                </div>
+
+                                <div class="col-4">
+                                    <span>Stato</span>
+                                    <div class="dropdown">
+                                        <button class="btn border border-1 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Scegli...
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Italia</a></li>
+                                          <li><a class="dropdown-item" href="#">Svizzera</a></li>
+                                          <li><a class="dropdown-item" href="#">Hogwarts</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+
+                                <div class="col-2">
+                                    <span>CAP</span>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+
+                            <!--row 5-->
+                            <div class="row mb-3">
+                                <span>Foto</span>
+                                <div class="input-group mb-3">
+                                    <input type="file" class="form-control" id="inputGroupFile02">
+                                  </div>
+
+                            </div>
+
+                            <!--checkbox-->
+                            <div class="input-group mb-3">
+                                <div class="input-group-text border border-0 bg-transparent">
+                                  <input  type="checkbox" value="">
+                                </div>
+                                <span>Seleziona per proseguire</span>
+                            </div>
+                            
+                            <!--buttons-->
+                            <button type="submit" class="btn btn-primary">Salva</button>
+                            <button type="submit" class="btn btn-warning">Svuota</button>
+                            
+                          </form>
+                      </div>
+                    </div>
+                
                 </div>
                 
                 

@@ -53,6 +53,17 @@
 }
 
 
+.my_breadcrumb .breadcrumb-item::before{
+    color: white;
+}
+
+
+.offcanvas.my_offcanvas_dimension{
+    width:100%;
+}
+
+
+
 
 /*main table*/
 .my_table td:first-child,
@@ -98,4 +109,10 @@
     .my_table tbody tr:hover{
         background-color: rgb(205, 205, 205);
     }
+
+    .offcanvas.my_offcanvas_dimension{
+        width:50%;
+    }
+    
+
 }
