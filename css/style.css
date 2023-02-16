@@ -41,6 +41,28 @@
     height: 100%;
 }
 
+/*main table*/
+
+.my_img_dimension{
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MEDIA QUERY--------------------------*/
 @media screen and (min-width:992px) {
    
