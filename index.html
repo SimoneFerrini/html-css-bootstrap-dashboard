@@ -18,7 +18,7 @@
 <body>
     
     <!--navbar grigia fixed-->
-    <nav class="my_nav_definition py-3 bg-white fixed-top">
+    <nav class="my_nav_definition py-3 fixed-top">
         
         <div class="container-fluid d-flex justify-content-between align-items-center h-100">
             <!--logo lg-md-sm -->
@@ -29,8 +29,8 @@
 
             <!--barra ricerca-->
             <div class="input-group px-3">
-                <span class="input-group-text my_bg_grey border-0" id="basic-addon1"><i class="bi bi-search"></i></span>
-                <input type="text" class="form-control my_bg_grey border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text my_bgsearch_grey border-0" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control my_bgsearch_grey border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
               </div>
 
             <!--div icone-->
@@ -104,8 +104,12 @@
                 <div class="row my_bg_grey py-3 ">
                     <div class="col-12 col-md-8">
                        <!-- tabella classi -->
-                        <div>
+                       <div class="card">
+                        <div class="card-header">
                             <h2>Prossime Classi</h2>
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-3">
                             <table class="table bg-white border-1">
                                 <thead>
                                   <tr>
@@ -126,7 +130,7 @@
                                         </td>
                                         <td class="d-none d-md-table-cell align-middle">15 Feb 2021</td>
                                         <td class="d-none d-md-table-cell align-middle">20%</td>
-                                        <td class="align-middle">Done</td>
+                                        <td class="align-middle"><span class="badge text-bg-success">Done</span></td>
                                         <td class="align-middle">
                                             <div>
                                                 <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -144,7 +148,7 @@
                                     </td>
                                     <td class="d-none d-md-table-cell align-middle">16 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle"><span class="badge text-bg-success">Done</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -162,7 +166,7 @@
                                         </td>
                                     <td class="d-none d-md-table-cell align-middle">17 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Process</td>
+                                    <td class="align-middle"><span class="badge text-white bg-warning">Process</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -180,7 +184,7 @@
                                         </td>
                                     <td class="d-none d-md-table-cell align-middle">18 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle"><span class="badge text-bg-success">Done</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -198,7 +202,7 @@
                                         </td>
                                     <td class="d-none d-md-table-cell align-middle">19 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Falled</td>
+                                    <td class="align-middle"><span class="badge text-bg-danger">Falled</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -216,7 +220,7 @@
                                         </td>
                                     <td class="d-none d-md-table-cell align-middle">20 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle"><span class="badge text-bg-success">Done</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -234,7 +238,7 @@
                                         </td>
                                     <td class="d-none d-md-table-cell align-middle">21 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Falled</td>
+                                    <td class="align-middle"><span class="badge text-bg-danger">Falled</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -252,7 +256,7 @@
                                         </td>
                                     <td class="d-none d-md-table-cell align-middle">22 Feb 2021</td>
                                     <td class="d-none d-md-table-cell align-middle">20%</td>
-                                    <td class="align-middle">Done</td>
+                                    <td class="align-middle"><span class="badge text-bg-success">Done</span></td>
                                     <td class="align-middle">
                                         <div>
                                             <button type="button" class="btn btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
@@ -262,8 +266,13 @@
                                   </tr>
                                 </tbody>
                             </table>
+                          </blockquote>
                         </div>
-    
+
+
+
+                    </div>
+
                         <!-- faq -->
                         <div>
                             <h2>F.A.Q.</h2>
