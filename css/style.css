@@ -47,10 +47,24 @@
 }
 
 /*main table*/
+.my_table td:first-child,
+.my_table th:first-child{
+    width: auto;
+    text-align: start;
+
+}
+
+.my_table td:not(first-child),
+.my_table th:not(first-child){
+    width: 130px;
+    text-align: center;
+}
 
 .my_img_dimension{
     width: 30px;
 }
+
+
 
 
 
