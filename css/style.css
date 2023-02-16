@@ -82,5 +82,12 @@
      .my_botright_definition{
         width: calc(100% - 150px);
     }
-    
+
+    .my_sidebar_definition ul li:hover{
+        background-color: rgb(139, 139, 235);
+    }
+
+    .my_table tbody tr:hover{
+        background-color: rgb(205, 205, 205);
+    }
 }
